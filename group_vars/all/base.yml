@@ -43,8 +43,8 @@ base_download_tools:
   - youtube-dl
 
 base_developer_tools:
-  - android-tools-adb
-  - android-tools-fastboot
+#  - android-tools-adb
+#  - android-tools-fastboot
   - ansible
   - ansible-lint
   - awscli
@@ -105,7 +105,7 @@ base_developer_tools:
   - recode
   - remmina
   - rename
-  - ripgrep  # launch using rg from the cli
+  # - ripgrep  # launch using rg from the cli
   - ruby
   - ruby-dev
   - shellcheck
